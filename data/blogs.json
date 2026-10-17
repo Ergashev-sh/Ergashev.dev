@@ -1,5 +1,29 @@
 [
-  {"id":"sample-article-1","title":"Birinchi saytimni GitHub Pages'ga joylash","excerpt":"Oddiy HTML/CSS/JS saytdan haqiqiy internet manziligacha bo‘lgan yo‘l.","body":"Bu namunaviy maqola. Telegram admin botini ulaganingizdan keyin o‘zingizning blog yozuvlaringizni qo‘shishingiz mumkin.\n\nGitHub Pages statik web-saytlarni bepul e'lon qilishga qulay platforma.","date":"2026-10-18","category":"WEB DEVELOPMENT","is_demo":true},
-  {"id":"sample-article-2","title":"Telegram bot — kichik g‘oyadan katta loyihagacha","excerpt":"Bir nechta tugmadan foydali tizim qurishga oid qaydlar.","body":"Bu blog dizaynini ko‘rsatish uchun namuna. Keyinchalik o‘zingizning amaliy tajribangiz bilan almashtiring.","date":"2026-10-12","category":"AUTOMATION","is_demo":true},
-  {"id":"sample-article-3","title":"Har kuni ozroq bo‘lsa ham kod yozish","excerpt":"O‘rganishda muntazamlik va kichik loyihalarning foydasi.","body":"Bu sinov maqolasi. Botdan /start qilib, Blog bo‘limida yangisini yozishingiz mumkin.","date":"2026-10-06","category":"THOUGHTS","is_demo":true}
+  {
+    "id": "sample-article-1",
+    "title": "Birinchi saytimni GitHub Pages'ga joylash",
+    "excerpt": "Oddiy HTML/CSS/JS saytdan haqiqiy internet manziligacha bo‘lgan yo‘l.",
+    "body": "Bu namunaviy maqola. Telegram admin botini ulaganingizdan keyin o‘zingizning blog yozuvlaringizni qo‘shishingiz mumkin.\n\nGitHub Pages statik web-saytlarni bepul e'lon qilishga qulay platforma.",
+    "date": "2026-10-18",
+    "category": "WEB DEVELOPMENT",
+    "is_demo": true
+  },
+  {
+    "id": "sample-article-2",
+    "title": "Telegram bot — kichik g‘oyadan katta loyihagacha",
+    "excerpt": "Bir nechta tugmadan foydali tizim qurishga oid qaydlar.",
+    "body": "Bu blog dizaynini ko‘rsatish uchun namuna. Keyinchalik o‘zingizning amaliy tajribangiz bilan almashtiring.",
+    "date": "2026-10-12",
+    "category": "AUTOMATION",
+    "is_demo": true
+  },
+  {
+    "id": "sample-article-3",
+    "title": "Har kuni ozroq bo‘lsa ham kod yozish",
+    "excerpt": "O‘rganishda muntazamlik va kichik loyihalarning foydasi.",
+    "body": "Bu sinov maqolasi. Botdan /start qilib, Blog bo‘limida yangisini yozishingiz mumkin.",
+    "date": "2026-10-06",
+    "category": "THOUGHTS",
+    "is_demo": true
+  }
 ]
