@@ -1,0 +1,14 @@
+[
+  {
+    "id": "sample-pms", "title": "Personal Memory System", "category": "Telegram bot", "year": "2026", "glyph": "PMS", "theme": "purple", "image": "", "summary": "Qaydlar, fayllar va eslatmalarni bir joyda saqlashga mo‘ljallangan shaxsiy xotira yordamchisi.", "description": "Bu — shaxsiy xotira tizimi uchun portfolio kartasining namuna matni. Bot yordamida haqiqiy tavsif va rasmni yangilash mumkin.", "tags": ["Python", "aiogram", "Telegram API"], "github_url": "", "demo_url": "", "is_demo": true
+  },
+  {
+    "id": "sample-web", "title": "Interactive Web Experience", "category": "Web", "year": "2026", "glyph": "</>", "theme": "lime", "image": "", "summary": "Zamonaviy interaktiv elementlar, harakatlanuvchi animatsiyalar va esda qolarli web tajriba.", "description": "Portfolio kartasi uchun namuna. Admin bot orqali yangi loyiha yaratib, buni o‘zingizning real ishingizga almashtirishingiz mumkin.", "tags": ["HTML", "CSS", "JavaScript"], "github_url": "", "demo_url": "", "is_demo": true
+  },
+  {
+    "id": "sample-kino", "title": "Kino Library Bot", "category": "Telegram bot", "year": "2026", "glyph": "▶", "theme": "blue", "image": "", "summary": "Kino kodlari, admin boshqaruvi va kanal arxivi asosida ishlovchi Telegram kino tizimi.", "description": "Telegram bot loyihasi uchun namunaviy portfolio yozuvi. Rasmlar, loyiha havolasi va aniq ma'lumotlar bot orqali yangilanadi.", "tags": ["Python", "Telegram Bot", "JSON"], "github_url": "", "demo_url": "", "is_demo": true
+  },
+  {
+    "id": "sample-tools", "title": "Developer Toolkit", "category": "Dastur", "year": "2026", "glyph": "{ }", "theme": "orange", "image": "", "summary": "Masalalarni soddalashtiradigan kichik dasturlar, algoritmlar va dasturchilar uchun vositalar.", "description": "Shaxsiy dasturlash loyihalari uchun namuna. Keyinchalik foydalanuvchi yaratgan haqiqiy C++ yoki Python dasturi bilan almashtiriladi.", "tags": ["C++", "Algorithms", "Tools"], "github_url": "", "demo_url": "", "is_demo": true
+  }
+]
