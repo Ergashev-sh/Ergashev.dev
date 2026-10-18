@@ -1,0 +1,14 @@
+import { randomBytes, scryptSync } from 'node:crypto';
+import { createInterface } from 'node:readline/promises';
+import { stdin, stdout } from 'node:process';
+const rl = createInterface({ input: stdin, output: stdout });
+const password = await rl.question('Admin parolni kiriting (terminalda ko‘rinadi): ');
+rl.close();
+if (password.length < 14) throw new Error('Kamida 14 ta belgidan iborat parol ishlating');
+const salt = randomBytes(16).toString('hex');
+const hash = scryptSync(password, Buffer.from(salt, 'hex'), 64).toString('hex');
+console.log('ADMIN_PASSWORD_HASH=' + salt + ':' + hash);
+console.log('SESSION_SECRET=' + randomBytes(48).toString('hex'));
+console.log('STATS_READ_TOKEN=' + randomBytes(32).toString('hex'));
+console.log('STATS_HASH_SECRET=' + randomBytes(32).toString('hex'));
+console.log('Eslatma: qiymatlarni faqat Netlify Environment Variables ichiga yozing.');

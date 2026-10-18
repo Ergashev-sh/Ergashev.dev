@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="uz">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#070D17">
+  <meta name="description" content="Ergashev.dev — developer portfolio, Telegram botlar, web tajribalar va amaliy loyihalar.">
+  <title>Ergashev.dev — Creative Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="ghost/ghost.css">
+  <link rel="stylesheet" href="css/premium-v3.css">
+  <script defer src="js/app.js"></script>
+  <script defer src="js/analytics.js"></script>
+  <script defer src="js/site-seo.js"></script>
+  <script defer src="ghost/ghost.js"></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <canvas id="starfield" aria-hidden="true"></canvas>
+  <div id="cursor-halo" aria-hidden="true"></div>
+  <div id="page-progress" aria-hidden="true"></div>
+
+  <header class="site-header" id="top">
+    <nav class="nav container" aria-label="Asosiy navigatsiya">
+      <a class="brand" href="#top" aria-label="Ergashev.dev bosh sahifasi"><span class="brand-symbol">e<span>.</span></span><span class="brand-name">ergashev<span>.dev</span></span></a>
+      <div class="nav-center" id="nav-center">
+        <a href="#projects" class="nav-link">Loyihalar</a>
+        <a href="#about" class="nav-link">Men haqimda</a>
+        <a href="#journal" class="nav-link">Blog</a>
+        <a href="#contact" class="nav-link">Aloqa</a>
+      </div>
+      <a class="nav-cta" href="#contact"><span class="availability-dot"></span> Hamkorlik uchun ochiq <span class="mini-arrow">↗</span></a>
+      <button class="mobile-toggle" id="mobile-toggle" aria-label="Menyuni ochish" aria-expanded="false"><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="eyebrow-line"></span> HELLO WORLD <span class="eyebrow-right">/ 2026</span></div>
+        <div class="hero-intro"><span class="waving">✳</span> Salom, mening raqamli olamimga xush kelibsiz.</div>
+        <h1>G‘oyalarimni<br><span class="outline-word">kodga</span> <span class="serif-comma">,</span><br><span class="bright-word">kodni san’atga<span class="heading-period">.</span></span></h1>
+        <p class="hero-description" id="hero-description" data-ghost-field="hero_description">Oddiy g‘oyalardan esda qoladigan raqamli tajribalar yarataman. Web, avtomatlashtirish va o‘zim sevgan texnologiyalar — hammasi shu yerda.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects"><span>Loyihalarni ko‘rish</span><span class="button-arrow">↗</span></a>
+          <a class="text-button" href="#about">Men haqimda <span>↘</span></a>
+        </div>
+        <div class="hero-bottom"><div class="avatars-shapes" aria-hidden="true"><span>⌘</span><span>✦</span><span>{ }</span></div><div><b>BUILD • EXPERIMENT • REPEAT</b><small>Qiziqishdan yaratilgan loyihalar</small></div></div>
+      </div>
+
+      <div class="hero-art reveal" id="hero-art" aria-label="Harakatlanuvchi uch o‘lchamli texnologik kompozitsiya">
+        <div class="art-grid"></div>
+        <div class="art-lens" id="art-lens">
+          <div class="orb-shadow"></div>
+          <div class="orb-aura"></div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="orbit orbit-three"></div>
+          <div class="orb-core"><div class="orb-core-inner"></div><span class="orb-core-glint"></span></div>
+          <div class="orb-disk orb-disk-one"></div><div class="orb-disk orb-disk-two"></div>
+          <div class="floating-glyph glyph-one">&lt;/&gt;</div><div class="floating-glyph glyph-two">✳</div><div class="floating-glyph glyph-three">∞</div>
+        </div>
+        <div class="art-label art-label-left"><span>01 / CREATIVE SPACE</span><span class="art-hairline"></span></div>
+        <div class="art-label art-label-right">DESIGNED TO <b>EXPLORE ↗</b></div>
+        <div class="art-coordinate">X: 041.28<br>Y: 067.91<br>Z: ∞</div>
+        <div class="float-card float-card-top"><span class="float-icon">✦</span><div><strong>Creative thinking</strong><small>Idea → Reality</small></div></div>
+        <div class="float-card float-card-bottom"><span class="signal-line"><i></i><i></i><i></i><i></i></span><div><strong>Always building</strong><small>Learning by doing</small></div></div>
+      </div>
+    </section>
+
+    <div class="hero-divider container"><span>SCROLL TO EXPLORE</span><span class="scroll-line"></span><span>↓</span><span class="hero-divider-index">001 — 005</span></div>
+
+    <section class="section projects-section container" id="projects">
+      <div class="section-heading reveal"><div><div class="section-kicker"><span class="kicker-num">01</span> / TANLANGAN ISHLAR</div><h2>Qilgan <em>ishlarim<span>.</span></em></h2><p>Har bir loyiha — yangi muammo, yangi yechim va biroz ijod.</p></div><span class="section-decoration">✳</span></div>
+      <div class="project-toolbar"><div class="project-filters" id="project-filters" role="group" aria-label="Loyihalarni filterlash"><button class="filter active" data-filter="all">Barchasi <span id="project-count">00</span></button><button class="filter" data-filter="Web">Web</button><button class="filter" data-filter="Telegram bot">Telegram bot</button><button class="filter" data-filter="Dastur">Dastur</button></div><div class="toolbar-note">SELECTED WORK / 2024—NOW</div></div>
+      <div class="projects-grid" id="projects-grid"><div class="empty-note">Loyihalar yuklanmoqda...</div></div>
+      <div class="below-projects"><span>Bular hali boshlanishi.</span><a href="https://github.com/ergashev-sh" target="_blank" rel="noopener noreferrer" id="all-github-link">GitHub profilim <span>↗</span></a></div>
+    </section>
+
+    <section class="manifesto-section" id="about"><div class="container manifesto-inner"><div class="section-heading reveal"><div><div class="section-kicker"><span class="kicker-num">02</span> / KIMMAN?</div><h2>Curious mind.<br><em>Builder’s soul.</em></h2></div><span class="manifesto-index">ABOUT / 002</span></div><div class="about-grid"><div class="about-art reveal"><div class="code-window"><div class="code-window-head"><div class="window-lights"><i></i><i></i><i></i></div><span>about-me.js</span><span>↗</span></div><div class="code-lines"><div><span class="code-purple">const</span> <span class="code-blue">developer</span> = {</div><div>&nbsp;&nbsp;name: <span class="code-green">'Ergashev'</span>,</div><div>&nbsp;&nbsp;passion: <span class="code-green">'building'</span>,</div><div>&nbsp;&nbsp;stack: [</div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'JavaScript'</span>,</div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'Python'</span>,</div><div>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-green">'C++'</span></div><div>&nbsp;&nbsp;],</div><div>&nbsp;&nbsp;giveUp: <span class="code-orange">false</span></div><div>};</div><div class="code-blank">&nbsp;</div><div><span class="code-purple">while</span> (curious) {</div><div>&nbsp;&nbsp;developer.<span class="code-blue">create</span>();</div><div>}</div></div><div class="code-window-foot"><span>●  ALL SYSTEMS OPERATIONAL</span><span>UTF-8 / JS</span></div></div><div class="about-orbit">✳</div></div><div class="about-copy reveal"><div class="about-topline">DEVELOPER / CREATOR / CONSTANT LEARNER</div><h3>Texnologiyani shunchaki ishlatmayman. <span>U bilan yangi narsalar yarataman.</span></h3><p id="about-description" data-ghost-field="about_text">Men web interfeyslar, Telegram botlar va avtomatlashtirish ustida ishlashni yaxshi ko‘raman. Har bir yangi loyiha — murakkab narsani oddiy va chiroyli qilish uchun imkoniyat.</p><div class="about-points"><div><span class="point-icon">↗</span><strong>Muammoga yechim</strong><small>G‘oyadan ishga tushirishgacha</small></div><div><span class="point-icon">✳</span><strong>Doimiy o‘sish</strong><small>Har kuni yangi bilim va tajriba</small></div></div><a class="inline-link" href="#contact">Birgalikda nimadir yarataylik <span>↗</span></a></div></div></div></section>
+
+    <section class="section stack-section container" id="stack"><div class="section-heading reveal"><div><div class="section-kicker"><span class="kicker-num">03</span> / ASBOBLARIM</div><h2>Mening <em>texnologiyalarim<span>.</span></em></h2><p>Yaxshi natija — to‘g‘ri vosita va yaxshi g‘oyaning uchrashuvi.</p></div></div><div class="stack-strip reveal"><span>01 / FRONTEND</span><div><b>HTML5</b><b>CSS3</b><b>JavaScript</b><b>Responsive UI</b></div><span class="stack-mark">↗</span></div><div class="stack-strip reveal"><span>02 / BACKEND & BOTS</span><div><b>Python</b><b>aiogram</b><b>Telegram API</b><b>JSON</b></div><span class="stack-mark">↗</span></div><div class="stack-strip reveal"><span>03 / FOUNDATIONS</span><div><b>C++</b><b>Git & GitHub</b><b>Algorithms</b><b>SQL</b></div><span class="stack-mark">↗</span></div></section>
+
+    <section class="section journal-section container" id="journal"><div class="section-heading reveal"><div><div class="section-kicker"><span class="kicker-num">04</span> / LABORATORIYA</div><h2>Fikrlar va <em>qaydlar<span>.</span></em></h2><p>O‘rganayotganlarim, kichik kashfiyotlar va foydali tajribalar.</p></div><div class="journal-badge">NOTES FROM<br>THE PROCESS ↗</div></div><div class="journal-list" id="journal-list"><div class="empty-note">Maqolalar yuklanmoqda...</div></div></section>
+
+    <section class="contact-section" id="contact"><div class="container contact-shell reveal"><div class="contact-orbit contact-orbit-a"></div><div class="contact-orbit contact-orbit-b"></div><div class="contact-content"><div class="section-kicker"><span class="kicker-num">05</span> / KEYINGI QADAM</div><div class="contact-star">✳</div><h2>Biror ajoyib<br><em>narsa qilamizmi?</em></h2><p>G‘oya bormi? Loyiha ustida ishlayapsanmi? Keling, gaplashamiz va uni birgalikda amalga oshiramiz.</p><div class="contact-actions"><a class="button button-dark" id="contact-primary" href="https://github.com/ergashev-sh" target="_blank" rel="noopener noreferrer">Men bilan bog‘lanish <span>↗</span></a><span>OR / SAY HELLO ANYTIME</span></div></div><span class="contact-corner">LET'S BUILD SOMETHING MEANINGFUL</span></div></section>
+  </main>
+
+  <footer class="footer container"><div class="footer-top"><a class="brand" href="#top"><span class="brand-symbol">e<span>.</span></span><span class="brand-name">ergashev<span>.dev</span></span></a><p>G‘oyalarni haqiqiy mahsulotga aylantirish joyi.</p><a href="#top" class="back-top">YUQORIGA <span>↑</span></a></div><div class="footer-bottom"><span>© <span id="year">2026</span> ERGASHEV.DEV</span><span>DESIGNED WITH CURIOSITY ✳</span><a id="footer-github" href="https://github.com/ergashev-sh" target="_blank" rel="noopener noreferrer">GITHUB ↗</a></div></footer>
+
+  <div class="modal-overlay" id="detail-modal" hidden><div class="modal-panel" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="Yopish">✕</button><div id="modal-content"></div></div></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>

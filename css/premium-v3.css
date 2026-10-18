@@ -1,0 +1,22 @@
+/* ERGASHEV.DEV — V3 design tokens. Original premium design remains intact. */
+:root {
+  --bg:#070d17; --bg2:#0d1726; --panel:#111d2e;
+  --line:rgba(157,210,224,.15); --txt:#f3fafc; --muted:#a7b9c9;
+  --acid:#63e7cf; --acid-dark:#3abbab; --violet:#a8a3ff;
+  --ghost-accent:#63e7cf; --ghost-accent2:#a8a3ff;
+}
+body {background: radial-gradient(ellipse at 85% 8%, rgba(43,101,116,.13), transparent 44%), var(--bg);}
+::selection{background:#63e7cf;color:#0b1521}
+.button-primary,.nav-cta{box-shadow:0 10px 38px #1edbc517}
+.project-card{transition:transform .35s, box-shadow .35s}
+.project-card:hover{transform:translateY(-6px);box-shadow:0 22px 48px #0109186a}
+#ghost-launch{background:linear-gradient(145deg,#142a37,#0b1522);border:1px solid #63e7cf73;box-shadow:0 0 0 4px #63e7cf0b,0 15px 40px #0009}
+#ghost-launch::after{content:"";position:absolute;inset:-7px;border:1px solid #63e7cf21;border-radius:20px;pointer-events:none}
+.ghost-body h3,.ghost-top h2{letter-spacing:-.3px}
+.ghost-stat-chart{display:flex;align-items:end;gap:7px;height:145px;padding:20px 0 6px;border-bottom:1px solid #3e556b66}
+.ghost-stat-bar{flex:1;min-width:8px;border-radius:5px 5px 0 0;background:linear-gradient(#65e9d0,#4978a8);position:relative}
+.ghost-stat-bar:hover{filter:brightness(1.15)}
+.ghost-stat-bar::after{content:attr(data-label);position:absolute;bottom:-18px;left:50%;transform:translateX(-50%);font:10px monospace;color:#93a8b8}
+.ghost-form-grid textarea{min-height:100px}
+.ghost-body input[type="color"]{height:42px;cursor:pointer}
+@media(prefers-reduced-motion:reduce){.project-card{transition:none!important}}
