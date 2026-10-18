@@ -1,24 +1,5 @@
 [
   {
-    "id": "sample-pms",
-    "title": "Personal Memory System",
-    "category": "Telegram bot",
-    "year": "2026",
-    "glyph": "PMS",
-    "theme": "purple",
-    "image": "",
-    "summary": "Qaydlar, fayllar va eslatmalarni bir joyda saqlashga mo‘ljallangan shaxsiy xotira yordamchisi.",
-    "description": "Bu — shaxsiy xotira tizimi uchun portfolio kartasining namuna matni. Bot yordamida haqiqiy tavsif va rasmni yangilash mumkin.",
-    "tags": [
-      "Python",
-      "aiogram",
-      "Telegram API"
-    ],
-    "github_url": "",
-    "demo_url": "",
-    "is_demo": true
-  },
-  {
     "id": "sample-web",
     "title": "Interactive Web Experience",
     "category": "Web",
