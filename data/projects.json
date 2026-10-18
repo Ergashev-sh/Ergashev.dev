@@ -36,24 +36,5 @@
     "github_url": "",
     "demo_url": "",
     "is_demo": true
-  },
-  {
-    "id": "sample-tools",
-    "title": "Developer Toolkit",
-    "category": "Dastur",
-    "year": "2026",
-    "glyph": "{ }",
-    "theme": "orange",
-    "image": "",
-    "summary": "Masalalarni soddalashtiradigan kichik dasturlar, algoritmlar va dasturchilar uchun vositalar.",
-    "description": "Shaxsiy dasturlash loyihalari uchun namuna. Keyinchalik foydalanuvchi yaratgan haqiqiy C++ yoki Python dasturi bilan almashtiriladi.",
-    "tags": [
-      "C++",
-      "Algorithms",
-      "Tools"
-    ],
-    "github_url": "",
-    "demo_url": "",
-    "is_demo": true
   }
 ]
