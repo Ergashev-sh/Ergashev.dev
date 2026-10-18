@@ -1,24 +1,5 @@
 [
   {
-    "id": "sample-web",
-    "title": "Interactive Web Experience",
-    "category": "Web",
-    "year": "2026",
-    "glyph": "</>",
-    "theme": "lime",
-    "image": "",
-    "summary": "Zamonaviy interaktiv elementlar, harakatlanuvchi animatsiyalar va esda qolarli web tajriba.",
-    "description": "Portfolio kartasi uchun namuna. Admin bot orqali yangi loyiha yaratib, buni o‘zingizning real ishingizga almashtirishingiz mumkin.",
-    "tags": [
-      "HTML",
-      "CSS",
-      "JavaScript"
-    ],
-    "github_url": "",
-    "demo_url": "",
-    "is_demo": true
-  },
-  {
     "id": "sample-kino",
     "title": "Kino Library Bot",
     "category": "Telegram bot",
