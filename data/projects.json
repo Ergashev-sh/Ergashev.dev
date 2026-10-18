@@ -1,5 +1,24 @@
 [
   {
+    "id": "3a2905b7306c",
+    "title": "Salom dunyo",
+    "category": "Web",
+    "year": "2026",
+    "glyph": "</>",
+    "theme": "lime",
+    "image": "assets/uploads/5b0991fa80444a4a.jpg",
+    "summary": "Shaxsiy blog sayt",
+    "description": "Men shaxsiy faoliyatim uchun yasagan web sayt",
+    "tags": [
+      "html",
+      "css",
+      "js"
+    ],
+    "demo_url": "https://ergashevdev.netlify.app/",
+    "github_url": "",
+    "is_demo": false
+  },
+  {
     "id": "sample-kino",
     "title": "Kino Library Bot",
     "category": "Telegram bot",
