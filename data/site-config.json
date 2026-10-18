@@ -1,6 +1,6 @@
 {
-  "theme": "green",
-  "accent": "#008000",
-  "accent2": "#FF0000",
+  "theme": "teal",
+  "accent": "#63e7cf",
+  "accent2": "#a8a3ff",
   "speed": 60
 }
