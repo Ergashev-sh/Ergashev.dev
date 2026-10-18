@@ -1,0 +1,10 @@
+# GitHub Linguist
+*.html linguist-detectable=true
+*.css linguist-detectable=true
+*.js linguist-detectable=true
+
+# Python fayllarini statistika hisobidan chiqarish
+*.py linguist-detectable=false
+
+# HTML fayllarni asosiy til sifatida hisoblash
+*.html linguist-language=HTML
